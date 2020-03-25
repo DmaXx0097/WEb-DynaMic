@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: Berkshire_Swash;
+	src: url("../fonts/Berkshire_Swash/BerkshireSwash-Regular.ttf");
+}
+
+@font-face{
+	font-family: Cabin_Sketch;
+	src: url("../fonts/Cabin_Sketch/CabinSketch-Regular.ttf");
+}
+
+@font-face{
+	font-family: Courgette;
+	src: url("../fonts/Courgette/Courgette-Regular.ttf");
+}
+
+@font-face{
+	font-family: Emilys_Candy;
+	src: url("../fonts/Emilys_Candy/EmilysCandy-Regular.ttf");
+}
+
+@font-face{
+	font-family: Faster_One;
+	src: url("../fonts/Faster_One/FasterOne-Regular.ttf");
+}
+
+@font-face{
+	font-family: Finger_Paint;
+	src: url("../fonts/Finger_Paint/FingerPaint-Regular.ttf");
+}
+
+@font-face{
+	font-family: Frijole;
+	src: url("../fonts/Frijole/Frijole-Regular.ttf");
+}
+
+@font-face{
+	font-family: Gotu;
+	src: url("../fonts/Gotu/Gotu-Regular.ttf");
+}
+
+@font-face{
+	font-family: Kaushan_Script;
+	src: url("../fonts/Kaushan_Script/KaushanScript-Regular.ttf");
+}
+
+@font-face{
+	font-family: Libre_Baskerville;
+	src: url("../fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf");
+}
+
+@font-face{
+	font-family: Love_Ya_Like_A_Sister;
+	src: url("../fonts/Love_Ya_Like_A_Sister/LoveYaLikeASister-Regular.ttf");
+}
+
+@font-face{
+	font-family: Permanent_Marker;
+	src: url("../fonts/Permanent_Marker/PermanentMarker-Regular.ttf");
+}
+
+@font-face{
+	font-family: Playfair_Display;
+	src: url("../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf");
+}
+
+@font-face{
+	font-family: Raleway;
+	src: url("../fonts/Raleway/Raleway-Regular.ttf");
+}
+
+@font-face{
+	font-family: Satisfy;
+	src: url("../fonts/Satisfy/Satisfy-Regular.ttf");
+}
+@font-face{
+	font-family: Special-Elite;
+	src: url("../fonts/Special_Elite/SpecialElite-Regular.ttf");
+}

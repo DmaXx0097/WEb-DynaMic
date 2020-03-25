@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('../css/fonts.css');
+html,body{
+	margin: 0%;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+:root {
+	
+	/*   Theme colors   */
+	--pink: #f04267;
+	--yellow:#ffcb04;
+	--blue:#5fa998;
+	
+	/*    Theme font-family   */
+	
+	/*    Gradient color     */
+	--sky:linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+	--many:linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
+ background-blend-mode: multiply,multiply;
+}
+/* -------------------Global Classes------------------ */
+a{
+	text-decoration: none;
+}
+.flex-row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+ul{
+	list-style-type: none;
+}
+h1{
+	font-family: Permanent_Marker;
+	font-size: 2.5rem;
+}
+h3{
+	font-family: Satisfy;
+	font-size: 1.3rem;
+}
+h2{
+	font-family: Satisfy;
+	font-size: 1.9rem;
+}
+button.btn{
+	border: none;
+	border-radius: 2rem;
+	padding: 1rem 3rem;
+	font-size: 1rem;
+	font-family: Love_Ya_Like_A_Sister;
+	cursor: pointer;
+}
+/* ---------X----------Global Classes------X--------- */
+/* -------------------navbar------------------ */
+
+.nav{
+	background: white;
+	padding: 0 2rem;
+	height: 0rem;
+	min-height: 10vh;
+	overflow: hidden;
+	transition: 1s ease-in-out;
+}
+.nav .nav-menu{
+	justify-content: space-between;
+}
+.nav .toggle-collapse{
+	position: absolute;
+	top: 0%;
+	width: 90%;
+	cursor: pointer;
+	display: none;
+}
+.nav .toggle-collapse .toggle-icons{
+	display: flex;
+	justify-content: flex-end;
+	padding: 1.7rem 0;
+}
+.nav .toggle-collapse .toggle-icons i{
+	font-size: 1.4rem;
+	color: #868f96;
+}
+.collapse{
+	height: 13rem;
+}
+.nav .nav-items{
+	display: flex;
+	margin: 0;
+}
+.nav .nav-items .nav-links{
+	padding: 1.6rem 1rem;
+	font-size: 1.1rem;
+	position: relative;
+	font-family: Emilys_Candy;
+}
+.nav .nav-brand a{
+	font-size: 1.6rem;
+	padding: 1rem 0;
+	display: block;
+	font-family: Faster_One;
+}
+.nav .nav-items .nav-links:hover{
+	background-color: var(--yellow);
+}
+.nav .nav-items .nav-links:hover a{
+	color: white;
+}
+.nav .nav-social{
+	padding: 1.4rem 0;
+}
+.nav .nav-social i{
+	padding: 0 .2rem;
+}
+.nav .nav-social i:hover{
+	color:#a1c4cf;
+}
+
+/* ---------X----------navbar--------X---------- */
+
+/* ---------main content---------- */
+
+/* -------site title--------- */
+main .site-title{
+	background: url('../assets/images/techandall_wallpaper_6.jpg');
+	background-size: cover;
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+}
+main .site-title .site-background{
+	padding-top: 10rem;
+	text-align: center;
+	color: white;
+}
+main .site-title h1,h3{
+	margin: .3rem;
+}
+main .site-title .btn{
+	margin: 1.8rem;
+	background: var(--sky);
+}
+main .site-title .btn:hover{
+	background: transparent;
+	border: 1px solid white;
+}
+
+/* ---------X--site title-X---------- */
+
+/* ---------X---main content----X---------- */
+
+/* ------------Viewport less than or equal to 700px---------- */
+@media only screen and (max-width:700px){
+	.nav{
+		background: #fff;
+	}
+	.nav .toggle-collapse{
+		display: block;
+	}
+	/*.nav .nav-items{
+		display: block;
+	}*/
+}
+/* -------X-----Viewport less than or equal to 750px-----X----- */
