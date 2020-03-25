@@ -138,6 +138,9 @@ main .site-title .site-background{
 main .site-title h1,h3{
 	margin: .3rem;
 }
+main .site-title h1{
+	color: #cdc7c6;
+}
 main .site-title .btn{
 	margin: 1.8rem;
 	background: var(--sky);
