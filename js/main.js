@@ -9,3 +9,6 @@ $(document).ready(function(){
 		$nav.toggleClass('collapse');
 	})
 })
+$(window).on("load",function(){
+     $(".loader-wrapper").fadeOut("slow");
+});
