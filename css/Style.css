@@ -62,11 +62,13 @@ button.btn{
 	height: 0rem;
 	min-height: 10vh;
 	overflow: hidden;
-	transition: 1s ease-in-out;
+	transition: height 1s ease-in-out;
 }
+
 .nav .nav-menu{
 	justify-content: space-between;
 }
+
 .nav .toggle-collapse{
 	position: absolute;
 	top: 0%;
@@ -74,46 +76,57 @@ button.btn{
 	cursor: pointer;
 	display: none;
 }
+
 .nav .toggle-collapse .toggle-icons{
 	display: flex;
 	justify-content: flex-end;
 	padding: 1.7rem 0;
 }
+
 .nav .toggle-collapse .toggle-icons i{
 	font-size: 1.4rem;
-	color: #868f96;
+	color: #3f4954;
 }
+
 .collapse{
-	height: 13rem;
+	height: 30rem;
 }
+
 .nav .nav-items{
 	display: flex;
 	margin: 0;
 }
+
 .nav .nav-items .nav-links{
 	padding: 1.6rem 1rem;
 	font-size: 1.1rem;
 	position: relative;
 	font-family: Emilys_Candy;
 }
+
+.nav .nav-items .nav-links:hover{
+	background-color: var(--yellow);
+}
+
+.nav .nav-items .nav-links:hover a{
+	color: white;
+}
+
 .nav .nav-brand a{
 	font-size: 1.6rem;
 	padding: 1rem 0;
 	display: block;
 	font-family: Faster_One;
 }
-.nav .nav-items .nav-links:hover{
-	background-color: var(--yellow);
-}
-.nav .nav-items .nav-links:hover a{
-	color: white;
-}
+
 .nav .nav-social{
 	padding: 1.4rem 0;
 }
+
 .nav .nav-social i{
 	padding: 0 .2rem;
 }
+
 .nav .nav-social i:hover{
 	color:#a1c4cf;
 }
@@ -123,6 +136,7 @@ button.btn{
 /* ---------main content---------- */
 
 /* -------site title--------- */
+
 main .site-title{
 	background: url('../assets/images/techandall_wallpaper_6.jpg');
 	background-size: cover;
@@ -130,22 +144,27 @@ main .site-title{
 	display: flex;
 	justify-content: center;
 }
+
 main .site-title .site-background{
 	padding-top: 10rem;
 	text-align: center;
 	color: white;
 }
+
 main .site-title h1,h3{
 	margin: .3rem;
 }
+
 main .site-title h1{
 
 	color: #000000;
 }
+
 main .site-title .btn{
 	margin: 1.8rem;
 	background: var(--sky);
 }
+
 main .site-title .btn:hover{
 	background: transparent;
 	border: 1px solid white;
@@ -160,11 +179,14 @@ main .site-title .btn:hover{
 	.nav{
 		background: #fff;
 	}
+	.nav .nav-menu, .nav .nav-items{
+        flex-direction: column;
+    }
 	.nav .toggle-collapse{
-		display: block;
+		display: initial;
 	}
 	/*.nav .nav-items{
-		display: block;
+		flex-direction: column;
 	}*/
 }
 /* -------X-----Viewport less than or equal to 750px-----X----- */
