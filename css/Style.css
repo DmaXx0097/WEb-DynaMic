@@ -5,6 +5,8 @@ html,body{
 	margin: 0%;
 	box-sizing: border-box;
 	overflow-x: hidden;
+	scroll-behavior:smooth;
+	transition: 4s ease;
 }
 .loader-wrapper{
 	position: fixed;
@@ -43,6 +45,7 @@ html,body{
 /* -------------------Global Classes------------------ */
 a{
 	text-decoration: none;
+	color: black;
 }
 .flex-row{
 	display: flex;
@@ -242,6 +245,14 @@ main .post-content .post-title a{
     font-size: 1.5rem;
 }
 
+main .post-content > .post-title a{
+	font-family: Permanent_Marker;
+}
+
+main .post-content > .post-title p{
+	font-family: Courgette;
+}
+
 .site-content .post-content .post-title .post-btn{
     border-radius: 0;
     padding: .7rem 1.5rem;
@@ -270,9 +281,12 @@ main .post-content .post-title a{
 
 
 /* --------------- Sidebar ----------------------- */
+.site-content > .sidebar{
+	margin-left: 2rem;
+}
 
 .site-content > .sidebar .category-list{
-    font-family: var(--Livvic);   
+    font-family: Satisfy;   
 }
 
 .site-content > .sidebar .category-list .list-items{
