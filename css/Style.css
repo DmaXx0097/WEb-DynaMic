@@ -179,7 +179,7 @@ button.btn{
 main .site-title{
 	background: url('../assets/images/techandall_wallpaper_6.jpg');
 	background-size: cover;
-	height: 85vh;
+	height: 110vh;
 	display: flex;
 	justify-content: center;
 }
@@ -213,19 +213,16 @@ main .site-title .btn:hover{
 
 
 /* ---------------- Site Content ----------------*/
-.cont{
-	margin: .3rem;
+
+.dropdwn{
 	
 }
-img{
-width: 100%;
-object-fit: cover;
-	transition: 1s ease;
+.flex-col{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 }
-img:hover{
-	transform: scale(1.07);
-	
-}
+
 /* -------x------- Site Content-----x----------- */
 
 /* ---------X---main content----X---------- */
@@ -235,9 +232,9 @@ img:hover{
 	.nav{
 		background: #fff;
 	}
-	.nav .nav-menu, .nav .nav-items{
+	/*.nav .nav-menu, .nav .nav-items{
         flex-direction: column;
-    }
+    }*/
 	.nav .toggle-collapse{
 		display: initial;
 	}
@@ -272,10 +269,12 @@ img:hover{
 /*              Viewport less then or equal to 750px            */
 
 @media only screen and (max-width: 750px){
-    .nav .nav-menu, .nav .nav-items{
+   /* .nav .nav-menu, .nav .nav-items{
         flex-direction: column;
-    }
-
+    }*/
+	.nav{
+		background-color: black;
+	}
     .nav .toggle-collapse{
         display: initial;
     }
