@@ -42,17 +42,17 @@ html,body{
 }
 
 :root {
-	
+
 	/*   Theme colors   */
 	--pink: #f04267;
 	--yellow:#ffcb04;
 	--blue:#5fa998;
-	
+
 	/*    Theme font-family   */
-	
+
 	/*    Gradient color     */
 	--sky:linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
-	--many:linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
+	--many:linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
  background-blend-mode: multiply,multiply;
 }
 /* -------------------Global Classes------------------ */
@@ -179,7 +179,7 @@ button.btn{
 main .site-title{
 	background: url('../assets/images/techandall_wallpaper_6.jpg');
 	background-size: cover;
-	height: 85vh;
+	height: 110vh;
 	display: flex;
 	justify-content: center;
 }
@@ -215,7 +215,7 @@ main .site-title .btn:hover{
 /* ---------------- Site Content ----------------*/
 .cont{
 	margin: .3rem;
-	
+
 }
 img{
 width: 100%;
@@ -224,7 +224,7 @@ object-fit: cover;
 }
 img:hover{
 	transform: scale(1.07);
-	
+
 }
 /* -------x------- Site Content-----x----------- */
 
@@ -287,7 +287,7 @@ img:hover{
     footer.footer .container{
 		grid-template-columns: repeat(1, 1fr);
     }
-	
+
 
 }
 
