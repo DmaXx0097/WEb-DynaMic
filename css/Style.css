@@ -98,7 +98,7 @@ button.btn{
 	background: white;
 	padding: 0 2rem;
 	height: 0rem;
-	min-height: 10vh;
+	min-height: 40vh;
 	overflow: hidden;
 	transition: height 1s ease-in-out;
 }
